@@ -1,0 +1,4 @@
+spring:  application:    name: account   cloud:    config:      uri: http://localhost:8080      
+server:  port: ${PORT:${SERVER_PORT:0}}
+  
+ 
